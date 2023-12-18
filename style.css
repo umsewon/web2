@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+@font-face {
+    font-family: 'Impact';
+    src: url('impact.ttf') format('truetype');
+}
+.warp{
+    margin: 0 auto;
+    width: 1100px;
+    height: 150px;
+   
+}
+.warp2{
+    margin: 0 auto;
+    height: 398px;
+    font-size: 26px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.warp3{
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+.letter1{
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    padding-top: 339px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    font-family: 'Impact', sans-serif;
+    font-size: 35px;
+}
+ul li a:hover {
+    color: #1336BE;
+}
+ul li a{
+    color: black;
+}
+.menu_item{
+    position: relative;
+}
+.menu_item::after {
+    content: "";
+    width: 1px;
+    height: 37px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    background-color: #333;
+    right: -50px;
+    
+    
+}
+
+.menu_item:last-child::after {
+    display: none;
+}
+.box2{
+    background-image: url(img/mainimg.png);
+    height: 772px;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+.box3{
+    height: 1081px;
+    background-image: url(img/mainimg2.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    
+}
+.box4{
+  background-color: #040038;
+  height: 2454px;
+}
+.liner{
+    width: 1100px;
+    text-align: left;
+    margin: 0 auto;
+    height: 2454px;
+    position: relative;
+
+
+}
+
+.line{
+    border-top: 1px solid rgb(255, 255, 255);
+    width: 550px;
+    position: absolute;
+    margin-top: 292px;
+}
+.letter2{
+    position: absolute;
+    left: 70%;
+    transform:translateY(250px) ;
+    
+}
+.letter2 p{
+    font-family: 'Impact';
+    font-size: 120px;
+    text-align: right;
+    color: #6B65B8;
+}
+
+.letter3{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    top: 463px;
+    font-size: 25px;
+    color: white;
+    
+
+    
+}
+.letter4{
+    position: absolute;
+    font-family: 'Noto Sans KR', sans-serif;
+    top: 855px;
+    font-size: 25px;
+    color: white;
+    
+
+}
+.footer{
+    
+    background-color: black;
+
+}
+
+
+.Lifeimg{
+    text-align: center;
+    background-color: black;
+}
+/* 여기서 부터 achivement */
+
+.box5{
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+.box6{
+    background-color: black;
+    height: 2153px;
+    position: relative;
+    transform: translateY(-48px);
+}
+.bx{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 259px;
+    
+}
+
+.line2{
+    border-top: 1px solid rgb(255, 255, 255);
+    width: 460px;
+    
+}
+.letter5{
+    color: #0B5CC7;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 90px;
+    font-weight: 800;
+}
+.letter6{
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    height: 44px;
+    width: 462px;
+    text-align: center;
+    
+}
+.bx2{
+    width: 1100px;
+    height: 336.59px;
+    margin: 0 auto;
+    margin-top: 123.4px;
+    
+
+}
+.letter7{
+    color: white;
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.box7{
+    background-color: black;
+    height: 2153px;
+    margin-top: 10px;
+}
+.letter8{
+    color: #0B5CC7;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+}
+.bx3{
+    width: 1100px;
+    height: 578px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+/* 여기서부터 individual */
+
+.box8{
+    background-color: black;
+    height: 5090px;
+}
+.letter9{
+    margin: 0 auto;
+    width: 350px;
+    height: 52px;
+    padding-top: 89px;
+}
+.letter9 p{
+    font-size: 43px;
+    font-family: 'Impact';
+    color: white;
+    text-align: center;
+}
+
+.letter9 .g{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    color: white;
+}
+.box9{
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 101px;
+}
+.box10{
+    width: 1100px;
+    margin: 0 auto;
+    height: 1000px;
+    margin-top: 90px;
+}
+.letter10{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+.letter10 span{
+    font-weight: 800;
+}
+.line3{
+    border-top: 1px solid white;
+    width: 1100px;
+    margin: 0 auto;
+}
+.box11{
+    width: 1100px;
+    margin: 0 auto;
+    height: 679px;
+    margin-top: 130px;
+}
+.box12{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 132px;
+}
+.letter11{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.box13{
+    height: 3337px;
+    background-color: white;
+    position: relative;
+}
+.letter12{
+    width: 1100px;
+    height: 171px;
+    margin: 0 auto;
+    margin-top: 341px;
+    
+}
+.letter12 p{
+    font-family: 'Impact';
+    font-size: 140px;
+    color: black;
+    text-align: center;
+}
+.box13 .bar{
+    height: 56px;
+    background-color: black;
+    width: auto;
+    transform: translateY(-37px)
+}
+.fassion{
+    margin: 0 auto;
+    width: 833px;
+    height: 1376px;
+    margin-top: 281px;
+}
+.box14{
+    height: 1303px;
+    background-color: #040038;
+    margin-top: 147px;
+}
+.letter13{
+    width: 1100px;
+    height: 834px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 168px;
+    
+}
+.box14 p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+}
+
+/* 여기서부터 digression */
+
+.box15{
+    height: 3109px;
+}
+
+.letter14{
+    margin: 0 auto;
+    width: 350px;
+    height: 52px;
+    padding-top: 89px;
+}
+.letter14 p{
+    font-size: 43px;
+    font-family: 'Impact';
+    color: black;
+    text-align: center;
+}
+.letter14 .y{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    color: black;
+}
+.line4{
+    border-top: 1px solid black;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 141px;
+}
+.letter15{
+    width: 1100px;
+    height: 934px;
+    margin: 0 auto;
+    margin-top: 125px;
+}
+.letter15 p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.box16{
+    width: 1100px;
+    height: 520px;
+    margin: 0 auto;
+}
+.box17{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 89px;
+}
+.letter16{
+    width: 550px;
+    height: 563px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+}
+.letter17{
+    width: 520px;
+    height: 630px;
+    margin-left: 29px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    
+}
+video{
+    width: 100%;
+    display: block;
+    
+}
+
+.box18{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 142px;
+    height: 557px;
+}
+.letter19{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 65px;
+    text-align: center;
+}
+.letter18{
+    width: 1100px;
+    margin-top: 85px;
+
+}
+.letter18 p{
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align:  center;
+}
